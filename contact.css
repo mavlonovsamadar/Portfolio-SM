@@ -1,0 +1,39 @@
+.contact{
+padding: 6.25rem 1.25rem;
+}
+
+textarea, input{
+width: 100%;
+padding: 0.875rem;
+margin-top: 0.625rem;
+margin-bottom: 0.625rem;
+border: 1px solid gray;
+border-radius: 0.32rem;
+padding-left: 0.625rem;
+font-size: 0.81rem;
+background: transparent;
+color: #495057;
+}
+
+textarea:focus, 
+input:focus{
+    outline: 0;
+}
+
+.half_flex{
+display: flex;
+}
+
+.contact_firstname{
+padding-right: 1.25rem;
+flex: 1;
+}
+
+.contact_email{
+padding-left: 1.25rem;
+flex: 1;
+}
+
+.contact_send{
+    padding-top: 1.875rem;
+}
